@@ -1,0 +1,15 @@
+GIT :- Day 11
+-> git init -> is used to initialize the repo
+-> git add calculator.sh (it will create .git and it tracks the all info and logs about the repo)
+-> commit -m ""
+-> remote(to add repo in to the git hub) to push the repo in to ur account
+-> clone (downloading the code from repo) it will in three ways https ssh cli . And it is a method for pull request.
+-> https -> password required
+-> ssh -> public key is required
+-> "fork":- it use to keep the copy of repo in their individual accounts.
+-> basically git is a distributed system it was come in to force by using the fork concept.
+-> clone Vs Fork.
+-> checkout(branch Switching) 
+-> Git "cherry-pick" -> it is used to merge the code (or) resource b/w branches.
+-> git log -> it will give the log (history for that branch or file) of resource.
+
