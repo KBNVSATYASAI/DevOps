@@ -1,0 +1,50 @@
+AWS service that are essential for DevOps Engineer:-
+-----------------------------------------------------
+
+-> There are some services that are need to know for any DevOps engineer in any organization they are:-
+
+1) EC2 :-
+INFO :- ec2 is belongs to compute category. And it used to deploy the the web applications and other things on internet.
+->And it can be integrated with the elastic load balancers and auto scaling.
+->Basically autoscaling is used for automatically scaling EC2 instances up or down based on demand.
+
+2)VPC :- (Secure Area For our resources)
+
+INFO :-Amazon VPC (Virtual Private Cloud) allows you to launch AWS resources into a virtual network that you define. 
+
+3)Cloud Watch :-
+
+INFO:- For monitoring and logging.
+
+4) Lambda :-
+
+INFO :- It is a server less compute system. And it triggers the event by integrating with other services in aws .
+
+5) S3 :-  
+
+INFO :- To store the data in encrypted area. And to deploy the static websites. And it have versioning ability.
+
+6)AWS CodePipeline:-
+
+INFO :- A continuous integration and continuous delivery (CI/CD) service for fast and reliable application and infrastructure updates.
+
+7)AWS CodeBuild:-
+
+INFO :-  A fully managed build service that compiles source code, runs tests, and produces software packages ready for deployment.
+
+8)AWS CodeDeploy:-
+
+INFO :-  A deployment service that automates application deployments to various compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and on-premises servers.
+
+9)AWS EBS:-
+
+INFO:- persistent block storage volumes for use with EC2 instances.
+
+10) EKS (Elastic Kubernetes Service):-
+INFO :- For running containerized applications on EC2 instances.
+
+11) Cloud Trail :-
+
+INFO :-  For logging and monitoring API calls.
+
+
