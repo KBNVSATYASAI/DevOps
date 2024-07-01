@@ -1,0 +1,44 @@
+Configuration Management :- (Ansible)
+
+-> puppet   Vs        Ansible
+    pull              push
+   agent             agentless
+                    it has windows and Linux friendly
+puppet language         YAML language 
+
+
+  Sudo -> It is used to make the root previlages active .
+
+
+
+
+
+sudo apt install ansible
+
+ansible --version
+
+
+set up password less authentication-------> 
+
+
+Inventry file --> it used to store the ip's of the target servers
+
+Ansible Adhoc commands VS Ansible playbook 
+
+Ansible Adhoc commands :- it has some modules and in it it has some arguments. to create the resources and execute the tasks in servers.
+
+ansible -i inventory all -m "shell" -a "touch firstfile.shell"
+
+ansible -i inventory  all -m "shell" -a "nproc"
+
+and we can group the servers by using "[group name]" below server to that group.
+ex:-
+and command :- ansible -i inventory webservers -m "shell" -a "touch firstfile.shell"
+                ansible -i inventory dbservers -m "shell" -a "touch firstfile.shell"
+
+-> now we can write the playbooks to execute the set of tasks .
+-> Yaml language is used to write
+-> We have roles to write more efficient in ansible.
+-> to run playbook ---> ansible-playbook -i inventory  playbook.yml
+  
+
