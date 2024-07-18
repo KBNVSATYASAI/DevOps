@@ -1,0 +1,13 @@
+master -> Main branch
+
+ls -a -> to see the hidden files
+
+git clone
+
+git add .
+
+git status
+
+git log
+
+
